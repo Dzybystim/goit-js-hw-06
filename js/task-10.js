@@ -21,7 +21,7 @@ const create = () => {
   
    presentValueWidthHeight+= 10*i
    
-   console.log(color)
+ 
 
    cre.style.width = `${presentValueWidthHeight}px`;
    cre.style.height = `${presentValueWidthHeight}px`;
