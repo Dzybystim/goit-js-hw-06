@@ -8,9 +8,9 @@ arrayLiItem.map(item => {
 
 const h2Element = item.querySelector('h2');
 const elementInCategory = item.querySelectorAll('li');
-const emptyLine = console.log('')
 
-emptyLine
+
+console.log('')
 console.log(`Category:`, h2Element.textContent)
 console.log(`Elements:`, elementInCategory.length)
 
